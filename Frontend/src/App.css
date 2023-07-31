@@ -1,0 +1,37 @@
+/* Quiz app styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: burlywood;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #81403b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c7a1cf;
+}
+
+/* Styling for the answer input */
+#userAnswer {
+  margin-top: 10px;
+}
+
+.choice {
+  margin-right: 8px;
+}
