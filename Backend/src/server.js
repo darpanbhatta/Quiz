@@ -48,8 +48,8 @@ app.get('/bank', (req, res) => {
     };
     questions.push(questionObj);
   }
-
   res.json(questions);
 });
 
-app.listen(3007, () => console.log("Listening on 3007!"));
+const port = process.env.PORT || 3007;
+app.listen(port, () => console.log(`Listening on ${port}!`));

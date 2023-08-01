@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css'; 
 
-const API_HOST = "http://localhost:3007";
+const API_HOST = "https://quiz-12xa.onrender.com";
 
 function App() {
   const [num, setNum] = useState("");
